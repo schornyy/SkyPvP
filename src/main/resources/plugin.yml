@@ -1,0 +1,9 @@
+name: SkyPvp
+version: ${project.version}
+main: de.schornyy.skypvp.SkyPvPPlugin
+api-version: 1.13
+authors: [Schornyy]
+
+commands:
+  npc:
+  kit:

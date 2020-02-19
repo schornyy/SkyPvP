@@ -31,6 +31,7 @@ public class SignConfig {
             ArrayList<String> sl = new ArrayList<>();
             sl.add("&f[&bSkyPvP&f]");
             sl.add("&fItemID: &6%ItemID%");
+            sl.add("&6%InvSize%&f:&e%StackSize%");
             getCfg().set("SignLayout", sl);
             try {
                 getCfg().save(getFile());

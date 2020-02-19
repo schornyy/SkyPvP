@@ -69,6 +69,7 @@ public final class SkyPvPPlugin extends JavaPlugin {
         pluginManager.registerEvents(new WeatherChangeListener(), this);
         pluginManager.registerEvents(new PlayerDeathListener(), this);
         pluginManager.registerEvents(new SignChangeListener(), this);
+        pluginManager.registerEvents(new PlayerInteractListener(), this);
     }
 
     private void loadCommands() {
